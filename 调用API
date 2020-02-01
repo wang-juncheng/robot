@@ -1,0 +1,6 @@
+<? JAVA
+DingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/robot/send?");
+OapiUserGetRequest req = new OapiUserGetRequest();
+req.setUserid("userid1");
+req.setHttpMethod("GET");
+OapiUserGetResponse rsp = client.execute(req, accessToken);
