@@ -1,0 +1,7 @@
+curl'https://oapi.dingtalk.com/robot/send?access_token=ae3bd997c5635fdac0b54907ee4569ea3fe3517c20fdac17cfdc39a21679b816
+   - ħ  “内容-类型：应用/ JSON” \
+   - d  “{ “信息类型”： “文本”，
+        “文字”：{
+             “ content”：“我就是我，是不一样的烟火”
+        }
+      } '
